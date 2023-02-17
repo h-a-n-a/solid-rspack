@@ -1,0 +1,22 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run dev",
+    "bootstrap": "pnpm i --prefer-offline",
+    "dev": "rspack serve",
+    "build": "rspack build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rspack/cli": "0.0.0-2bdd24cd-20230216082940",
+    "babel-loader": "9.1.2",
+    "@babel/core": "7",
+    "babel-preset-solid": "1.6.10",
+    "solid-refresh": "^0.4.3"
+  },
+  "dependencies": {
+    "solid-js": "1.6.10"
+  }
+}
